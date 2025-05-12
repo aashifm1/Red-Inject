@@ -19,5 +19,6 @@ A lightweight Python-based web vulnerability scanner for detecting **XSS (Cross-
 
 --
 
-![image](https://github.com/user-attachments/assets/d106779a-28d0-46ac-8459-19dd7605c8e7)
-![image](https://github.com/user-attachments/assets/feea9845-07ed-45cc-bfd4-a170c9d878f4)
+![1](https://github.com/user-attachments/assets/13cb24b0-809d-4155-83b2-92eea359073d)
+--
+![2](https://github.com/user-attachments/assets/a919e940-cdf1-42c7-8467-7a8257532a15)
