@@ -17,3 +17,7 @@ A lightweight Python-based web vulnerability scanner for detecting **XSS (Cross-
 - 🖥️ Clean terminal output with color-coded alerts
 - 🛠️ Linux-friendly and designed for ethical hacking labs
 
+--
+
+![image](https://github.com/user-attachments/assets/d106779a-28d0-46ac-8459-19dd7605c8e7)
+![image](https://github.com/user-attachments/assets/feea9845-07ed-45cc-bfd4-a170c9d878f4)
