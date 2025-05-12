@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "[*] Installing Python dependencies..."
+pip3 install -r /opt/redinject/requirements.txt
+chmod +x /usr/local/bin/redinject
+

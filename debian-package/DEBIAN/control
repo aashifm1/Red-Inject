@@ -1,0 +1,9 @@
+Package: redinject
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: all
+Depends: python3, python3-pip
+Maintainer: Your Name <you@example.com>
+Description: RedInject - Simple Web Vulnerability Scanner
+ A light XSS and SQLi form scanner for testing educational web apps.
