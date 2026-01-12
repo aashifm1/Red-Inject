@@ -1,7 +1,7 @@
-# Red Inject  ![RedInject Banner](https://img.shields.io/badge/version-1.0.0-red?style=flat-square)  
+# Red Inject  ![RedInject Banner](https://img.shields.io/badge/version-1.2-red?style=flat-square)  
 > Developed for educational purposes only (use it ethically)
 
-A web vulnerability scanner for detecting **XSS (Cross-Site Scripting)** and **SQLi (SQL Injection)** vulnerabilities in HTML forms.
+A web vulnerability scanner for detecting **XSS (Cross-Site Scripting)** and **SQLi (SQL Injection)** vulnerabilities.
 <img width="800" height="450" alt="vuln-scan-2" src="https://github.com/user-attachments/assets/ab58fb16-38ee-4c86-b278-0a4b1192da0e" />
 
 ## Installation
