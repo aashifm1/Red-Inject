@@ -1,42 +1,48 @@
 # Red Inject  ![RedInject Banner](https://img.shields.io/badge/version-1.0.0-red?style=flat-square)  
-> Developed by **Aashif M**
+> Developed for educational purposes only (use it ethically)
 
-A lightweight Python-based web vulnerability scanner for detecting **XSS (Cross-Site Scripting)** and **SQL Injection (SQLi)** vulnerabilities in HTML forms.
+A web vulnerability scanner for detecting **XSS (Cross-Site Scripting)** and **SQLi (SQL Injection)** vulnerabilities in HTML forms.
+<img width="800" height="450" alt="vuln-scan-2" src="https://github.com/user-attachments/assets/ab58fb16-38ee-4c86-b278-0a4b1192da0e" />
 
-
-
-
-## Features
-
-- Crawls the website, extracts and scans all HTML forms.
-- Tests for XSS using custom payloads.
-- Tests for SQLi using known injection patterns.
-- Easy to customize payloads (located in `payloads/` directory).
-
-## Implementation
-1. Git Clone
+## Installation
+1. Clone the repository
    ``` bash
    git clone https://github.com/aashifm1/Red-Inject.git
    ```
-2. Make virtual environment
+2. Create a virtual environment
    ``` bash
    python -m venv venv
    source venv/bin/activate
    ```
-3. Install the Requiremnets
+3. Install the dependencies
    ``` bash
    pip install -r requirements.txt
    ```
-4. Run the script
+4. Execution
    ``` bash
-   python3 redinject.py -h
+   python3 redinject.py --depth 2 https://www.example.com
    ```
 
-### Example Command: python3 redinject.py --depth 2 https://www.example.com
+## Execution
+```bash
+python3 redinject.py -h
+    ____           ______        _           __
+   / __ \___  ____/ /  _/___    (_)__  _____/ /_
+  / /_/ / _ \/ __  // // __ \  / / _ \/ ___/ __/
+ / _, _/  __/ /_/ // // / / / / /  __/ /__/ /_
+/_/ |_|\___/\__,_/___/_/ /_/_/ /\___/\___/\__/
+                          /___/
 
-## Outcome 👇
-<img src="https://github.com/user-attachments/assets/13cb24b0-809d-4155-83b2-92eea359073d" width="930" />
+            ( Developed by Aashif M )
+usage: redinject.py [-h] [--depth DEPTH] url
 
-<img src="https://github.com/user-attachments/assets/a919e940-cdf1-42c7-8467-7a8257532a15" width="930" />
+RedInject - Simple Web Vulnerability Scanner
 
----
+positional arguments:
+  url            Target URL (e.g., https://example.com)
+
+options:
+  -h, --help     show this help message and exit
+  --depth DEPTH  Max crawl depth
+```
+
