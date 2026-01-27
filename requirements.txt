@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 requests
 beautifulsoup4
 colorama
 pyfiglet
+=======
+requests
+beautifulsoup4
+colorama
+pyfiglet
+>>>>>>> 9505cdb (New version commit)
