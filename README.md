@@ -31,10 +31,8 @@ Install the dependencies
  / _, _/  __/ /_/ // // / / / / /  __/ /__/ /_
 /_/ |_|\___/\__,_/___/_/ /_/_/ /\___/\___/\__/   v2.0
                           /___/
-              (Developed by Aashif)
+         (Web Vulnerability Scanner)
 usage: redinject.py [-h] [--depth DEPTH] [--version] url
-
-RedInject - Web Vulnerability Scanner
 
 positional arguments:
   url            Target URL (e.g. https://example.com)
@@ -48,3 +46,4 @@ Examples:
   python3 redinject.py --depth 3 https://example.com
 
 ```
+
