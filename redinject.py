@@ -19,7 +19,8 @@ lines = banner.splitlines()
 lines[-2] += " v2.0"
 
 print("\n".join(lines))
-print(" (Web Vulnerability Scanner) ".center(50))
+print(" (Web Vulnerability Scanner) \n".center(50))
+
 
 # ------------------ INIT ------------------
 
@@ -201,10 +202,9 @@ def main():
         formatter_class=argparse.RawTextHelpFormatter,
         epilog="""
 Examples:
-  python3 redinject.py --depth 3 https://example.com
+python3 redinject.py --depth 3 https://example.com
 
-"""
-    )
+                """)
 
     parser.add_argument(
         "url",
@@ -253,6 +253,4 @@ Examples:
 
 if __name__ == "__main__":
     main()
-
     
-
