@@ -32,6 +32,7 @@ Install the dependencies
 /_/ |_|\___/\__,_/___/_/ /_/_/ /\___/\___/\__/   v2.0
                           /___/
          (Web Vulnerability Scanner)
+
 usage: redinject.py [-h] [--depth DEPTH] [--version] url
 
 positional arguments:
@@ -46,4 +47,5 @@ Examples:
   python3 redinject.py --depth 3 https://example.com
 
 ```
+
 
