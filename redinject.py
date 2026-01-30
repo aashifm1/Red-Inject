@@ -198,7 +198,6 @@ def crawl(url, target_netloc, depth):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="RedInject - Web Vulnerability Scanner",
         formatter_class=argparse.RawTextHelpFormatter,
         epilog="""
 Examples:
@@ -256,3 +255,4 @@ if __name__ == "__main__":
     main()
 
     
+
