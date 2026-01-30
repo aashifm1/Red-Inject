@@ -19,7 +19,7 @@ lines = banner.splitlines()
 lines[-2] += " v2.0"
 
 print("\n".join(lines))
-print(" (Developed by Aashif) ".center(50))
+print(" (Web Vulnerability Scanner) ".center(50))
 
 # ------------------ INIT ------------------
 
@@ -254,4 +254,5 @@ Examples:
 
 if __name__ == "__main__":
     main()
+
     
